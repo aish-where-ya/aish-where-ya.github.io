@@ -1,9 +1,9 @@
 ---
-title: "USE-LESS BRAND"
+title: "Explainable AI For Healthcare And Finance"
 date: 2019-12-23T15:58:10+06:00
 type: portfolio
 image: "images/projects/project-thumb-one.jpg"
-category: ["UI UX"]
+category: ["DEEP LEARNING"]
 project_images: ["images/projects/project-details-image-one.jpg", "images/projects/project-details-image-two.jpg"]
 ---
 

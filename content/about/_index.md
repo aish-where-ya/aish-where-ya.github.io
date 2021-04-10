@@ -1,8 +1,8 @@
 ---
 title: "About Us"
 date: 2018-07-12T18:19:33+06:00
-heading : "WE ARE ROXO DESIGN. AN AWARD-WINNING CREATIVE STUDIO IN FLORIDA."
-description : "We are specialized in developing forward-thinking brand identities, websites, illustration and animation for all types of customers. And we do this by bringing our customers through each phase of the design process with us."
+heading : "I AM AISHWARYA HARPALE. A SOFTWARE DEVELOPER FROM PUNE, INDIA."
+description : "I love learning new things and implementing them. My areas of interest are Machine Learning, Full Stack Developement and DevOps. I am also really passionate about doing work that matters and brings a change."
 expertise_title: "Expertise"
-expertise_sectors: ["Customer Experience Design", "Digital Products", "Development", "Campaign & Content", "Employer Branding", "Animation & Motion Graphics", "Packaging & Product Design", "Retail & Spacial", "Print & Editorial Design", "Concept/Text", "Information Design"]
+expertise_sectors: ["No Production Screw-Ups", "Clean Modular Code", "Comments", "Funny Commit Messages", "No Testing On Train Dataset :)", "Up For Learning Anything!", "Goner For Python And JS", "More Funny Commit Messages", "Team Work. Always."]
 ---
