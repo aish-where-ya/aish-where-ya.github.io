@@ -51,3 +51,48 @@ $(window).on('scroll', function () {
     $('.site-navigation').removeClass('nav-bg');
   }
 });
+
+var vh = $(window).height();
+if (navigator.userAgent.indexOf('Opera Mini') != -1) {
+  // Setting Fun Facts Value Immediately 
+  work.start();
+  happyClient.start();
+  projects.start();
+  coffee.start();
+  // Setting Skillbar Value Immediately
+  $('.skillbar').each(function () {
+    $(this).find('.skillbar-bar').animate({
+      width: jQuery(this).attr('data-percent')
+    }, 0);
+  });
+  // Removing Bootstrap Class and Re-Style Input
+  $("input").removeClass("form-control");
+  $("input").css({
+    "width": "100%",
+    "height": "50px",
+    "background": "#fff"
+  });
+  // Removing Full-Screen Nav
+  $(".navigation-icon").css("display", "none");
+}
+
+// Code For UC Browser
+if (navigator.userAgent.indexOf('UCBrowser') != -1) {
+  // Removing Full-Screen Nav
+  $(".navigation-icon").css("display", "none");
+  $(".fun-facts").css({
+    "display": "table",
+    "margin": "auto"
+  });
+  // Setting Fun Facts Value Immediately 
+  work.start();
+  happyClient.start();
+  projects.start();
+  coffee.start();
+  // Setting Skillbar Value Immediately
+  $('.skillbar').each(function () {
+    $(this).find('.skillbar-bar').animate({
+      width: jQuery(this).attr('data-percent')
+    }, 0);
+  });
+}

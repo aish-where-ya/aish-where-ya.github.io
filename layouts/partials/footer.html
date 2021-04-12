@@ -46,5 +46,7 @@
 <script src="{{ $formhandler.Permalink }}"></script>
 {{ $vendor := resources.Get "js/vendor.js" | minify }}
 <script src="{{ $vendor.Permalink }}"></script>
+{{ $script := resources.Get "js/jquery.waypoints.min.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
 {{ $script := resources.Get "js/script.js" | minify }}
 <script src="{{ $script.Permalink }}"></script>
