@@ -1,14 +1,18 @@
 enable : true
 heading : "THE PROOF IS IN THE PUDDING!"
 counter_item: 
-  - title: "Happy Clients"
-    number: "250"
+  - title: "Github"
+    url: "https://www.github.com/"
+    icon: "fa fa-github"
 
-  - title: "Projects Completed"
-    number: "100"
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/"
+    icon: "fa fa-linkedin"
 
-  - title: "Cups of coffee"
-    number: "350"
+  - title: "Gitlab"
+    url: "https://www.gitlab.com/"
+    icon: "fa fa-gitlab"
 
-  - title: "Telephone Talks"
-    number: "775"
+  - title: "Gmail"
+    url: "https://www.medium.com/"
+    icon: "fa fa-medium"

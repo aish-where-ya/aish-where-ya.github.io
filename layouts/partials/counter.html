@@ -11,8 +11,8 @@
         {{ range .counter_item }}
         <div class="col-lg-3 col-md-6">
           <div class="site-counter-item">
-            <span class="site-counter-item-title">{{ .title }}</span>
-            <h3 class="site-counter-item-number">{{ .number }}+</h3>
+            <span class="site-counter-item-title">{{ .title }}</span><br>
+            <a class="site-counter-item-number site-client-item" href="{{ .url | absURL }}"><i class="{{ .icon }}"></i></a>
           </div>
         </div>
         {{ end }}

@@ -60,8 +60,8 @@ summarylength = 25
 
   [params.portfolio]
     enable    = true
-    title     = "OUR RECENT WORKS"
-    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+    title     = "MY RECENT WORKS"
+    subtitle  = "Experimenting with tech and solving complex problems."
 
   [params.call_to_action]
     enable              = true

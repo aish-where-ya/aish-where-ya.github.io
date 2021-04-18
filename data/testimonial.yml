@@ -8,22 +8,34 @@ experience:
   title : "EXPERIENCE"
   experience_list:
     # experience item loop
-    - name : "Web Developer"
-      company : "Fiverr.com"
-      duration : "2016-2018"
-      content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
+    - name : "Software Developer"
+      company : "Cakesoft Technologies"
+      duration : "Sept' 20-Present"
+      content : "Developed Web Applications using React.js, PHP, Laravel, SQL, Firebase, JQuery, etc. Also wrote APIs and CI/CD pipelines."
       
     # experience item loop
-    - name : "Graphic Designer"
-      company : "Fiverr.com"
-      duration : "2015-2018"
-      content : "Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
+    - name : "Student Developer"
+      company : "Google Summer of Code - LibreHealth"
+      duration : "May 20-August 20"
+      content : "Model compression using quantization, pruning and hybrid techniques to develop low powered models for for disease detection in radiology images."
       
     # experience item loop
-    - name : "Database Manager"
-      company : "Polytechnic"
-      duration : "2014-2018"
-      content : "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
+    - name : "Project Intern"
+      company : "Persistent Systems Ltd."
+      duration : "June 19-May 20"
+      content : "Explainable AI and bias detection in healthcare (Breast Cancer Prediction) and finance (Home Credit Default Risk Prediction)."
+
+    # experience item loop
+    - name : "Research Intern"
+      company : "Pune Institute of Computer Technology"
+      duration : "May 19-Dec' 19"
+      content : "Research conducted on Multimodal Summarization and implemented feature selection in images using CNNs and an attention-based transformer architecture."
+    
+    # experience item loop
+    - name : "Project Intern"
+      company : "VASP Solutions"
+      duration : "March 19-Sept' 19"
+      content : "Generated a synthetic dataset and developed an object-detection system using Faster-RCNN for classifying and labelling symbols on machine-generated diagrams."
 
 ############################### Skill #################################
 skill:
@@ -31,17 +43,21 @@ skill:
   title : "SKILL"
   skill_list:
     # skill item loop
-    - name : "Web Development"
-      percentage : "98%"
-      
-    # skill item loop
-    - name : "Graphic Design"
+    - name : "Machine Learning"
       percentage : "85%"
+
+    # skill item loop
+    - name : "Web Development"
+      percentage : "90%"      
       
     # skill item loop
     - name : "Database Management"
-      percentage : "90%"
+      percentage : "70%"
+
+    # skill item loop
+    - name : "Algorithms and Data Structures"
+      percentage : "75%"
       
     # skill item loop
-    - name : "Wordpress"
+    - name : "DevOps"
       percentage : "70%"
