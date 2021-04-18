@@ -8,9 +8,10 @@
             <h2>{{ .title }}</h2>
           </div>
           <div class="site-client-wrapper">
-            {{ range .client_logos }}
+            {{ range .tech_logos }}
             <div class="site-client-item">
-              <img src="{{ . | absURL }}" alt="client-logo">
+              <img src="{{ .image | absURL }}" alt="{{ .alttext}}" style="width: 30%">
+              <p>{{ .alttext}}</p>
             </div>
             {{ end }}
           </div>
