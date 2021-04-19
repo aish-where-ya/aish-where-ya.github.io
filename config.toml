@@ -20,12 +20,12 @@ summarylength = 25
     url     = "portfolio"
     weight  = 3
   [[menu.nav]]
-    name    = "Blog"
-    url     = "blog"
+    name    = "Contact"
+    url     = "contact"
     weight  = 4
   [[menu.nav]]
-    name    = "Get in touch"
-    url     = "contact"
+    name    = "Download Resume"
+    url     = "files/Aishwarya_Harpale_Resume_Apr21.pdf"
     weight  = 5
 
 # Site Params
@@ -38,7 +38,7 @@ summarylength = 25
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
-  formspreeFormUrl  = "https://formspree.io/myykjpje"
+  formspreeFormUrl  = "https://formspree.io/f/mzbyzvle"
   
   # Navbar Action Button
   [params.navAction]
@@ -55,7 +55,7 @@ summarylength = 25
     tagline               = "WELCOME TO MY PAGE"
     primary_button        = "See My Work"
     primary_button_url    = "portfolio"
-    secondary_button      = "View Resume"
+    secondary_button      = "Get In Touch"
     secondary_button_url  = "contact"
 
   [params.portfolio]
@@ -75,20 +75,15 @@ summarylength = 25
   [params.footer]
     # Footer Contact Info
     [params.footer.contactInfo]
-      title   = "Contact Info"
-      email   = "aishwaryaharpale14@gmail.com"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
         [[params.footer.sitemap.link]]
-          name = "About Company"
+          name = "About"
           url  = "about"
         [[params.footer.sitemap.link]]
-          name = "Projects"
+          name = "Portfolio"
           url  = "portfolio"
-        [[params.footer.sitemap.link]]
-          name = "Blog"
-          url  = "blog"
         [[params.footer.sitemap.link]]
           name = "Contact"
           url  = "contact"
@@ -97,13 +92,17 @@ summarylength = 25
         title   = "Social Media"
         [[params.footer.social.link]]
           name = "Github"
-          url  = "#"
+          url  = "https://github.com/aish-where-ya"
         [[params.footer.social.link]]
           name = "LinkedIn"
-          url  = "#"
+          url  = "https://www.linkedin.com/in/aishwaryaharpale/"
         [[params.footer.social.link]]
-          name = "Facebook"
-          url  = "#"
+          name = "GitLab"
+          url  = "https://gitlab.com/aish-where-ya"
         [[params.footer.social.link]]
           name = "Instagram"
-          url  = "#"
+          url  = "https://www.instagram.com/aish_where_ya/"
+      # Footer Service
+      [params.footer.service]
+        title       = "I help organizations:"
+        description = "develop design solutions<br>produce quick valuable outcomes<br>bring fresh experiences to the table"

@@ -6,4 +6,5 @@ image: "images/projects/chest-xray.png"
 category: ["DEEP LEARNING"]
 ---
 
-Description coming soon!
+- Developed a system for classifying Chest-XRay images into 14 classes using DenseNet, Resnet and VGG. Used localization techniques to draw bounding boxes over the affected sections of images.
+- Built a website using Bootstrap and deployed it on a Flask server for the user to diagnose diseases.

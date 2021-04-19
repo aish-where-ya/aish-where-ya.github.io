@@ -61,3 +61,18 @@ skill:
     # skill item loop
     - name : "DevOps"
       percentage : "70%"
+
+  # skill item loop
+    - name : "Android Development"
+      percentage : "70%"
+
+########################### Education ##############################
+education:
+  enable : true
+  title : "EDUCATION"
+  education_list:
+    # education item loop
+    - institute : "Pune Institute of Computer Technology, Pune"
+      degree : "Bachelor of Engineering in Computer Engineering"
+      duration : "Aug' 16-June' 20"
+      CGPA : "CGPA - 9.04/10"

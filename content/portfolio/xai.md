@@ -6,4 +6,6 @@ image: "images/projects/xai.png"
 category: ["DEEP LEARNING"]
 ---
 
-Description coming soon!
+- Research in the field of Explainable AI and Interpretable Machine Learning.
+- Identified biases in models trained on healthcare (Breast Cancer Prediction) and financial risk assessment (Home Credit Default Risk Prediction) datasets. Used DenseNet, ResNet, VGG, for training.
+- Identified inconsistencies in Explainability techniques and worked on creating self-interpretable models.

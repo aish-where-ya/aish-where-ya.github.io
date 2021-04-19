@@ -1,18 +1,18 @@
 enable : true
-heading : "THE PROOF IS IN THE PUDDING!"
+heading : "FIND ME ON THESE WEBSITES"
 counter_item: 
   - title: "Github"
-    url: "https://www.github.com/"
+    url: "https://github.com/aish-where-ya"
     icon: "fa fa-github"
 
   - title: "LinkedIn"
-    url: "https://www.linkedin.com/"
+    url: "https://www.linkedin.com/in/aishwaryaharpale/"
     icon: "fa fa-linkedin"
 
   - title: "Gitlab"
-    url: "https://www.gitlab.com/"
+    url: "https://gitlab.com/aish-where-ya"
     icon: "fa fa-gitlab"
 
-  - title: "Gmail"
-    url: "https://www.medium.com/"
-    icon: "fa fa-medium"
+  - title: "Instagram"
+    url: "https://www.instagram.com/aish_where_ya/"
+    icon: "fa fa-instagram"

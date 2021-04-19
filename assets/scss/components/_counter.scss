@@ -17,11 +17,19 @@
       font-size: 20px;
       font-weight: 300;
     }
-    &-number{
+    &-icon{
       color: $white;
       font-size: 60px;
       margin-bottom: 0;
       font-weight: 700;
+      &:hover{
+        color: $text-color;
+        text-decoration: none;
+        &::before{
+          transform: scaleX(1);
+          transform-origin: left;
+        }
+      }
     }
   }
 }

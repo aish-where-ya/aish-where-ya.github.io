@@ -6,4 +6,6 @@ image: "images/projects/book-vendor.png"
 category: ["ANDROID"]
 ---
 
-Description coming soon!
+- Developed an Android app to sell and purchase second-hand university books from students.
+- Included various features like user authentication, payment module and texting module.
+- App was integrated with Firebase cloud services.
