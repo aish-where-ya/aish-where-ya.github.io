@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="col-lg-4">
-        <a href="#project" class="site-project-header-action scroll-to">
+        <a href="#background" class="site-project-header-action scroll-to">
           <span>Scroll Down</span>
           <img src="{{ "images/arrow-down.svg" | absURL }}" alt="arrow-down">
         </a>
@@ -20,32 +20,57 @@
   </div>
 </section>
 
+{{ partial "background.html" . }}
 <section class="site-project" id="project">
   <div class="container">
+    <div class="col-12">
+      <div class="section-title">
+        <h2>MY RECENT WORKS</h2>
+        <p>Experimenting with tech and solving complex problems.</p>
+      </div>
+    </div>
     <div class="row">
-      {{ range (.Paginator 4).Pages }}
-      <div class="col-lg-6 col-md-10 mx-auto">
+      {{ range (.Paginator 6).Pages }}
+      <div class="col-lg-4 col-md-6 mx-auto">
         <div class="site-project-item">
           <div class="site-project-item-thumb">
             <img src="{{ .Params.Image | absURL }}" alt="project-thumb">
           </div>
           <div class="site-project-item-content">
             <span>{{ delimit .Params.category ", " }}</span>
-            <h3>{{ .Title }}</h3>
+            <h5>{{ .Title }}</h5>
             <a href="{{ .Permalink }}" class="read-more">view project</a>
           </div>
         </div>
       </div>
       {{ end }}
-      <div class="col-12">
-        <div class="site-project-pagination">
-          {{ template "_internal/pagination.html" . }}
+    </div>
+  </div>
+</section>
+
+{{ partial "techstack.html" . }}
+
+<section class="site-expertise">
+  <div class="container">
+    <div class="row">
+      {{ with .Params.expertise_title }}
+      <div class="col-md-5">
+        <div class="section-title">
+          <h2>{{ . }}</h2>
         </div>
+      </div>
+      {{ end }}
+      <div class="col-md-6">
+        <ul class="site-expertise-list">
+          {{ range .Params.expertise_sectors }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
       </div>
     </div>
   </div>
 </section>
-{{ partial "testimonial.html" . }}
+
 {{ partial "call-to-action.html" . }}
 
 {{ end }}

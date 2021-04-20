@@ -15,13 +15,13 @@ $(document).ready(function() {
     event.preventDefault();
   });
 
-  $('.site-testimonial-item').on('mouseenter', function(){
-    $('.site-testimonial-item').addClass('inactive');
+  $('.site-background-item').on('mouseenter', function(){
+    $('.site-background-item').addClass('inactive');
     $(this).removeClass('inactive').addClass('active');
   });
-  $('.site-testimonial-item').on('mouseleave', function(){
-    $('.site-testimonial-item').removeClass('inactive');
-    $('.site-testimonial-item').removeClass('active');
+  $('.site-background-item').on('mouseleave', function(){
+    $('.site-background-item').removeClass('inactive');
+    $('.site-background-item').removeClass('active');
   });
 
   // About Me Skillbar Animation

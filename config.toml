@@ -12,21 +12,17 @@ summarylength = 25
     url     = ""
     weight  = 1
   [[menu.nav]]
-    name    = "About"
-    url     = "about"
-    weight  = 2
-  [[menu.nav]]
     name    = "Portfolio"
     url     = "portfolio"
-    weight  = 3
+    weight  = 2
   [[menu.nav]]
     name    = "Contact"
     url     = "contact"
-    weight  = 4
+    weight  = 3
   [[menu.nav]]
     name    = "Download Resume"
     url     = "files/Aishwarya_Harpale_Resume_Apr21.pdf"
-    weight  = 5
+    weight  = 4
 
 # Site Params
 [params]
@@ -58,18 +54,13 @@ summarylength = 25
     secondary_button      = "Get In Touch"
     secondary_button_url  = "contact"
 
-  [params.portfolio]
-    enable    = true
-    title     = "MY RECENT WORKS"
-    subtitle  = "Experimenting with tech and solving complex problems."
-
   [params.call_to_action]
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
     title               = "LET’S WORK TOGETHER"
-    primary_button      = "Submit Query"
+    primary_button      = "Get In Touch"
     primary_button_url  = "contact"
-    secondary_button    = "Not Convinced"
+    secondary_button    = "See My Work"
     secondary_button_url = "portfolio"
 
   [params.footer]
@@ -79,14 +70,14 @@ summarylength = 25
       [params.footer.sitemap]
         title   = "Sitemap"
         [[params.footer.sitemap.link]]
-          name = "About"
-          url  = "about"
-        [[params.footer.sitemap.link]]
           name = "Portfolio"
           url  = "portfolio"
         [[params.footer.sitemap.link]]
           name = "Contact"
           url  = "contact"
+        [[params.footer.sitemap.link]]
+          name = "Download Resume"
+          url  = "files/Aishwarya_Harpale_Resume_Apr21.pdf"
       # Footer Social Media
       [params.footer.social]
         title   = "Social Media"
@@ -100,8 +91,8 @@ summarylength = 25
           name = "GitLab"
           url  = "https://gitlab.com/aish-where-ya"
         [[params.footer.social.link]]
-          name = "Instagram"
-          url  = "https://www.instagram.com/aish_where_ya/"
+          name = "Gmail"
+          url  = "mailto:aishwaryaharpale14@gmail.com"
       # Footer Service
       [params.footer.service]
         title       = "I help organizations:"

@@ -1,6 +1,6 @@
 enable : true
 heading : "FIND ME ON THESE WEBSITES"
-counter_item: 
+social_item: 
   - title: "Github"
     url: "https://github.com/aish-where-ya"
     icon: "fa fa-github"
@@ -13,6 +13,6 @@ counter_item:
     url: "https://gitlab.com/aish-where-ya"
     icon: "fa fa-gitlab"
 
-  - title: "Instagram"
-    url: "https://www.instagram.com/aish_where_ya/"
-    icon: "fa fa-instagram"
+  - title: "Gmail"
+    url: "mailto:aishwaryaharpale14@gmail.com"
+    icon: "fa fa-envelope"

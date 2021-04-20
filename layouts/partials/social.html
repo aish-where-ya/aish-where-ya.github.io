@@ -1,6 +1,6 @@
-{{ with .Site.Data.counter }}
+{{ with .Site.Data.social }}
   {{ if .enable }}
-  <section class="site-counter" id="counter">
+  <section class="site-social" id="social">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -8,11 +8,11 @@
             <h2 class="text-white">{{ .heading }}</h2>
           </div>
         </div>
-        {{ range .counter_item }}
+        {{ range .social_item }}
         <div class="col-lg-3 col-md-6">
-          <div class="site-counter-item">
-            <span class="site-counter-item-title">{{ .title }}</span><br>
-            <a class="site-counter-item-icon site-client-item" href="{{ .url | absURL }}"><i class="{{ .icon }}"></i></a>
+          <div class="site-social-item">
+            <span class="site-social-item-title">{{ .title }}</span><br>
+            <a class="site-social-item-icon site-client-item" href="{{ .url | absURL }}"><i class="{{ .icon }}"></i></a>
           </div>
         </div>
         {{ end }}
