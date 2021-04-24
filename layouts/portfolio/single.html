@@ -5,12 +5,18 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         <div class="site-project-single">
+          <span>{{ delimit .Params.category ", " }}</span>
           <h1>
             {{ .Title }}
           </h1>
           <div class="site-project-single-description">
             {{ .Content }}
           </div>
+          {{if .Params.link}}
+            <div class="site-project-single-description">
+              <a href="{{.Params.link}}">Link to project</a>
+            </div>
+          {{end}}
           {{ if .NextInSection }}
           <div class="site-project-single-action">
             <a href="{{.NextInSection.Permalink}}">
