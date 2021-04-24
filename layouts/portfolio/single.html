@@ -17,18 +17,32 @@
               <a href="{{.Params.link}}">Link to project</a>
             </div>
           {{end}}
-          {{ if .NextInSection }}
-          <div class="site-project-single-action">
-            <a href="{{.NextInSection.Permalink}}">
-              <span class="link-area">
-                <span data-text="Next Project">
-                  Next Project
+          <!-- <div class="row" style="display: flex; justify-content: space-around">
+            {{ if .NextInSection }}
+            <div class="site-project-single-prev">
+              <a href="{{.NextInSection.Permalink}}">
+                <img src="{{ "images/to-top.svg" | absURL }}" alt="prev project">
+                <span class="link-area">
+                  <span data-text="Prev Project">
+                    Previous Project
+                  </span>
                 </span>
-              </span>
-              <img src="{{ "images/to-top.svg" | absURL }}" alt="next project">
-            </a>
-          </div>
-          {{ end }}
+              </a>
+            </div>
+            {{ end }} -->
+            {{ if .PrevInSection }}
+            <div class="site-project-single-next">
+              <a href="{{.PrevInSection.Permalink}}">
+                <span class="link-area">
+                  <span data-text="Next Project">
+                    Next Project
+                  </span>
+                </span>
+                <img src="{{ "images/to-top.svg" | absURL }}" alt="next project">
+              </a>
+            </div>
+            {{ end }}
+          <!-- </div> -->
         </div>
       </div>
     </div>
