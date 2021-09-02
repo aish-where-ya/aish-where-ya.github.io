@@ -72,6 +72,10 @@ education:
   title : "EDUCATION"
   education_list:
     # education item loop
+    - institute : "Rutgers University, New Jersey"
+      degree : "Master of Science in Computer Science"
+      duration : "Sept' 21-Present"
+      
     - institute : "Pune Institute of Computer Technology, Pune"
       degree : "Bachelor of Engineering in Computer Engineering"
       duration : "Aug' 16-June' 20"
