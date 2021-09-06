@@ -10,7 +10,7 @@ experience:
     # experience item loop
     - name : "Software Developer"
       company : "Cakesoft Technologies"
-      duration : "Sept' 20-Present"
+      duration : "Sept' 20-July' 21"
       content : "Developed Web Applications using React.js, PHP, Laravel, SQL, Firebase, JQuery, etc. Also wrote APIs and CI/CD pipelines."
       
     # experience item loop
@@ -74,7 +74,7 @@ education:
     # education item loop
     - institute : "Rutgers University, New Jersey"
       degree : "Master of Science in Computer Science"
-      duration : "Sept' 21-Present"
+      duration : "Sept' 21-May' 23"
       
     - institute : "Pune Institute of Computer Technology, Pune"
       degree : "Bachelor of Engineering in Computer Engineering"
