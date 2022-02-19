@@ -45,6 +45,9 @@ skill:
     # skill item loop
     - name : "Machine Learning"
       percentage : "85%"
+    # skill item loop
+    - name : "Copy Paste"
+      percentage : "0%"
 
     # skill item loop
     - name : "Web Development"
