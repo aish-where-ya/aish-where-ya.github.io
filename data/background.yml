@@ -13,25 +13,21 @@ experience:
       duration : "Sept' 20-July' 21"
       content : "Developed Web Applications using React.js, PHP, Laravel, SQL, Firebase, JQuery, etc. Also wrote APIs and CI/CD pipelines."
       
-    # experience item loop
     - name : "Student Developer"
       company : "Google Summer of Code - LibreHealth"
       duration : "May 20-August 20"
       content : "Model compression using quantization, pruning and hybrid techniques to develop low powered models for for disease detection in radiology images."
       
-    # experience item loop
     - name : "Project Intern"
       company : "Persistent Systems Ltd."
       duration : "June 19-May 20"
       content : "Explainable AI and bias detection in healthcare (Breast Cancer Prediction) and finance (Home Credit Default Risk Prediction)."
 
-    # experience item loop
     - name : "Research Intern"
       company : "Pune Institute of Computer Technology"
       duration : "May 19-Dec' 19"
       content : "Research conducted on Multimodal Summarization and implemented feature selection in images using CNNs and an attention-based transformer architecture."
     
-    # experience item loop
     - name : "Project Intern"
       company : "VASP Solutions"
       duration : "March 19-Sept' 19"
@@ -52,11 +48,11 @@ skill:
       
     # skill item loop
     - name : "Database Management"
-      percentage : "70%"
+      percentage : "75%"
 
     # skill item loop
     - name : "Algorithms and Data Structures"
-      percentage : "75%"
+      percentage : "85%"
       
     # skill item loop
     - name : "DevOps"
@@ -75,8 +71,25 @@ education:
     - institute : "Rutgers University, New Jersey"
       degree : "Master of Science in Computer Science"
       duration : "Sept' 21-May' 23"
+      GPA : "GPA - 4.0/4.0"
       
     - institute : "Pune Institute of Computer Technology, Pune"
       degree : "Bachelor of Engineering in Computer Engineering"
       duration : "Aug' 16-June' 20"
-      CGPA : "CGPA - 9.04/10"
+      GPA : "CGPA - 9.04/10.0"
+
+########################### Additional Expereince ##############################
+additional_experience:
+  enable : true
+  title : "ADDITIONAL EXPERIENCE"
+  experience_list:
+    # experience item loop
+    - name : "Research Assistant"
+      company : "Abraira Lab & Tischfield Lab"
+      duration : "February 22-Present"
+      content : "Machine Learning, Explainable AI and Full Stack Development with an awesome team."
+      
+    - name : "Teaching Assistant"
+      company : "Rutgers University"
+      duration : "August 21-January 21"
+      content : "Teaching Assistant for CS439 : Introduction to Data Science under Prof. Ananda Gunawardena."
