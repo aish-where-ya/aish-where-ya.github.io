@@ -13,7 +13,7 @@
     flex-wrap: wrap;
   }
   &-company{
-    background: $primary-color;
+    background: $gray;
     width: 40%;
     padding: 70px 38px;
     @include desktop{
@@ -27,6 +27,12 @@
       line-height: 60px;
       text-transform: uppercase;
       letter-spacing: 1px;
+    }
+    img{
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 18em;
     }
   }
   &-description{
