@@ -8,9 +8,14 @@ experience:
   title : "EXPERIENCE"
   experience_list:
     # experience item loop
+    - name : "Backend Engineering Intern"
+      company : "Kasten by Veeam"
+      duration : "June 22-Aug' 22"
+      content : "Developed Web Applications using React.js, PHP, Laravel, SQL, Firebase, JQuery, etc. Also wrote APIs and CI/CD pipelines."
+
     - name : "Software Developer"
       company : "Cakesoft Technologies"
-      duration : "Sept' 20-July' 21"
+      duration : "Sept' 20-July 21"
       content : "Developed Web Applications using React.js, PHP, Laravel, SQL, Firebase, JQuery, etc. Also wrote APIs and CI/CD pipelines."
       
     - name : "Student Developer"
