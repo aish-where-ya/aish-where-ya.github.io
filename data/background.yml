@@ -11,7 +11,7 @@ experience:
     - name : "Backend Engineering Intern"
       company : "Kasten by Veeam"
       duration : "June 22-Aug' 22"
-      content : "Developed Web Applications using React.js, PHP, Laravel, SQL, Firebase, JQuery, etc. Also wrote APIs and CI/CD pipelines."
+      content : "Developed a reference architecture to use Argo Workflows and created a pipeline to expose Prometheus metrics in Kanister."
 
     - name : "Software Developer"
       company : "Cakesoft Technologies"
