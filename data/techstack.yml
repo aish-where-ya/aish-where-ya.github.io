@@ -10,6 +10,12 @@ tech_logos  :
   - image : images/tech-stack/firebase.png
     alttext : Firebase
 
+  - image : images/tech-stack/k8s.png
+    alttext : Kubernetes
+
+  - image : images/tech-stack/golang.jpg
+    alttext : Golang
+
   - image : images/tech-stack/flask.png
     alttext : Flask
 
