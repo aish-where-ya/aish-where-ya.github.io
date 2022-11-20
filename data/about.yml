@@ -2,5 +2,5 @@ enable  : true
 title: "About Me"
 date: 2018-07-12T18:19:33+06:00
 heading : "I AM AISHWARYA HARPALE. A SOFTWARE DEVELOPER CURRENTLY IN NEW JERSEY, USA."
-description : "I am currently working at the Abraira Lab at Rutgers University. I was also a judge for HackHers'22. My areas of interest are Machine Learning, Backend Engineering and DevOps. Looking to hire a Software Developer, mail me. If you are looking for a mentor for projects or programmes, get in touch! If you have queries regarding Open Source, Software Development, or any of my past projects, head to the Contact section."
+description : "I am currently working at the Abraira Lab at Rutgers University. Did you spot me recently at KubeCon '22 NA at Detroit? Or did you hear me speak on the Kubernetes Podcast? I also got a chance to judge some great projects at HackHers'22. My areas of interest are Machine Learning, Backend Engineering and DevOps. If you want to get in touch, head to the Contact section."
 image_source: "images/portfolio-image.jpg"

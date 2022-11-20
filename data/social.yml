@@ -16,3 +16,7 @@ social_item:
   - title: "Gmail"
     url: "mailto:aishwaryaharpale14@gmail.com"
     icon: "fa fa-envelope"
+
+  - title: "Twitter"
+    url: "https://twitter.com/aishwhereya"
+    icon: "fa fa-twitter"
